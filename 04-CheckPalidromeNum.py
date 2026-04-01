@@ -1,3 +1,4 @@
+# Check if a number is a palindrome
 num = input("Enter a number: ")
 temp = num
 while temp>0:
