@@ -64,8 +64,10 @@ def quick_sort(arr,l=0,r=None):
         quick_sort(arr, p + 1, r)
     return arr
         
+
 Arr1 = [7, 1, 5, 3, 2, 6, 4]
-print("Sorted Array using Quick Sort method :", quick_sort(Arr1)) 
+# Arr1 = list(map(int, input("Enter the array: ").split(",")))
+print("Sorted Array using Quick Sort method :", quick_sort(Arr1))
 
 #Space Complexity : O(1)
 #Time Complexity : O(n²), Ω(nlogn)
