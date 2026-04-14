@@ -1,6 +1,5 @@
 # Sort Colors
 # Given an array nums with n objects colored red, white, or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white, and blue.
-
 # We will use the integers 0,1, and 2 to represent the color red, white, and blue, respectively.
 
 
@@ -23,6 +22,7 @@ for i in range(0,mx+1):
         freq[i]-=1
         
 print("The Sorted color according to red, white and blue is :", nums1)
+
 
 # Method-2 : 2 pointer approach
 
