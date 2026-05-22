@@ -9,21 +9,21 @@
 # Input: x = 8
 # Output: 2
 
-x=8 
+x=100
 
 if x==0 or x==1:
     print("The square root of x is:", x)
 
 l = 1
 r = x
-ans = 1
+ans = 0
 
 while l <= r:
     mid = (l + r) // 2
     midSquare = mid * mid
     
     if midSquare == x:
-        print("The square root of x is:", mid)
+        ans = mid
         break
     elif midSquare < x:
         l = mid + 1
