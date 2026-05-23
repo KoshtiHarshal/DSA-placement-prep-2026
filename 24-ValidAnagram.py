@@ -39,5 +39,5 @@ for i in freq.values():
     if i != 0:
         print(False)
         break
-    else:
-        print(True)
+else:    
+    print(True)
