@@ -6,3 +6,6 @@ runner_sum = [arr1[0]]
 for i in range(1, n):
     runner_sum.append(runner_sum[i-1] + arr1[i])
 print("The runner sum of the array is:", runner_sum)
+
+# Time Complexity: O(n)
+# Space Complexity: O(n) for the output array.

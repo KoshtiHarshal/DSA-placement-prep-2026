@@ -1,3 +1,6 @@
+# Pow(x, n)
+# Implement pow(x, n), which calculates x raised to the power n (i.e., xn).
+
 def power_of_x_n(x, n):
     if n == 0:
         return 1
@@ -9,6 +12,9 @@ def power_of_x_n(x, n):
     else:
         return x * power_of_x_n(x, n - 1)
     
-n= int(input("Enter the value of n: "))
-x= int(input("Enter the value of x: "))
+n= float(input("Enter the value of n: "))
+x= float(input("Enter the value of x: "))
 print("The value of", x, "to the power of", n, "is", power_of_x_n(x, n))
+
+# Time Complexity: O(log n)
+# Space Complexity: O(log n) due to recursive stack space.
