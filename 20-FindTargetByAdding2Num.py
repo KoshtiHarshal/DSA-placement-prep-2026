@@ -16,3 +16,5 @@ for i in range(n):
     else:
         dist1[Num[i]] = i
         
+# Time Complexity: O(n) where n is the length of the input array. We traverse the array once to build the hash map and check for complements.
+# Space Complexity: O(n) in the worst case, if all elements are unique, we may store all elements in the hash map.

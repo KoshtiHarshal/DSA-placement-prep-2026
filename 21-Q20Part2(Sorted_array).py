@@ -18,3 +18,6 @@ while left < right:
         left += 1
     else:
         right -= 1
+        
+# Time Complexity: O(n) where n is the length of the input array. In the worst case, we may have to traverse the entire array if the target is not found until the end.
+# Space Complexity: O(1) as we are using only a constant amount of extra space to store the indices and sum.
