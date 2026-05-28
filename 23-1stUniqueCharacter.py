@@ -15,3 +15,6 @@ for i in range(n):
         break
 else:
     print(-1)
+    
+# Time Complexity: O(n) where n is the length of the string s, since we traverse the string twice (once to build the frequency dictionary and once to find the first non-repeating character).
+# Space Complexity: O(1) since the frequency dictionary will at most contain 26 characters (assuming only lowercase English letters), which is a constant space.

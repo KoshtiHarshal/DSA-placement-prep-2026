@@ -8,3 +8,6 @@ set2 = set(num2)
 
 result = set1.intersection(set2)
 print(list(result))
+
+# Time Complexity: O(n + m) where n and m are the lengths of nums1 and nums2 respectively.
+# Space Complexity: O(min(n, m)) where n and m are the lengths of nums1 and nums2 respectively, since we are storing the unique elements of the smaller array in a set.
