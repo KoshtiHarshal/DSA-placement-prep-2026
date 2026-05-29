@@ -14,3 +14,5 @@ for i in range(len(sentence2) - 1, -1, -1):
     reversed_sentence += sentence2[i]
 print("Reversed sentence:", reversed_sentence)
 
+# Time Complexity: O(n), where n is the length of the input sentence. Both methods require iterating through the sentence once to reverse it.
+# Space Complexity: O(n), where n is the length of the input sentence. Both methods require additional space to store the reversed sentence.

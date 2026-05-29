@@ -32,3 +32,5 @@ while left < right:
 reversed_word = ''.join(word3)
 print("Reversed string:", reversed_word)
     
+# Time Complexity: O(n), where n is the length of the input string. All methods require iterating through the string once to reverse it.
+# Space Complexity: O(n), where n is the length of the input string. All methods require additional space to store the reversed string.
