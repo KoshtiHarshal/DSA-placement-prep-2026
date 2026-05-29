@@ -11,3 +11,6 @@ for i in range(n-2):
         count += 1
                 
 print(count)
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)

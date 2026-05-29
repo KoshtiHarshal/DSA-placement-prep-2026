@@ -16,3 +16,6 @@ for s in Str1:
         anagram_map[key] = [s]
 
 print(list(anagram_map.values()))
+
+# Time Complexity: O(n * k log k), where n is the number of strings and k is the maximum length of a string in the input array. Sorting each string takes O(k log k) time.
+# Space Complexity: O(n * k), where n is the number of strings and k is the maximum length of a string in the input array. In the worst case, all strings are anagrams of each other, and we store all n strings in the anagram_map.

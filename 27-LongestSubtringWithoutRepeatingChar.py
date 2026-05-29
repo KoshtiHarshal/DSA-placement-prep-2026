@@ -9,7 +9,7 @@ if n == 0:
     print(0)
 
 max_length = 0
-set1 = set({})
+set1 = set({})  
 set1.add(s[0])
 
 i = 0
