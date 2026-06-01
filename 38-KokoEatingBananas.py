@@ -12,21 +12,23 @@
 # Input: piles = [30,11,23,4,20], h = 5
 # Output: 30
 
-piles = [30,11,23,4,20]
-ans = 0
-for pile in piles:
-    ans = max(pile+mid-1)//mid
-    print(ans)
+piles = [30, 11, 23, 4, 20]
 h = 5
 l = 1
 r = max(piles)
 k = r
+
 while l <= r:
-    mid  = (l + r) // 2
-    if ans > h:
+    mid = (l + r) // 2
+    
+    hours = 0
+    for pile in piles:
+        hours += (pile + mid - 1) // mid 
+    
+    if hours > h:
         l = mid + 1
     else:
-        k = mid 
+        k = mid
         r = mid - 1
         
 print("The minimum integer k such that Koko can eat all the bananas within h hours is:", k)
